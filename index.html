@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css"
+    />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <header>
+      <h1>Busca tu pokemon favorito</h1>
+    </header>
+    <main>
+      <form class="form">
+        <input id="pokemon" placeholder="Pikachy, ivasur" />
+        <button type="submit">Buscar</button>
+        <button type="button" id="todos">Todos</button>
+      </form>
+
+      <section>
+        <li id="pokemons"></li>
+      </section>
+    </main>
+    <script src="./pokedex.js" type="module"></script>
+  </body>
+</html>
